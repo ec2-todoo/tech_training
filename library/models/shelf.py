@@ -6,8 +6,8 @@ class Library(models.Model):
      _name = 'library.shelf'
      _description = 'Library Shelf'
 
-#     name = fields.Char(string='Book Title', required=True, index=True, index=True, help='Ingrese el nombre del libro')
-#     description = fields.Html(string='Description')
+     name = fields.Char(string='Book Title', required=True, index=True, index=True, help='Ingrese el nombre del libro')
+     description = fields.Html(string='Description')
 #     banner = fields.Binary(string='Banner')
 #     price = fields.Float(string='Price', digits=(5, 4))
 #     value = fields.Integer()
