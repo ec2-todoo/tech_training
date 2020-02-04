@@ -2,7 +2,7 @@
 
 from odoo import models
 
-class library(models.Model):
+class Library(models.Model):
      _name = 'library.shelf'
      _description = 'library Shelf'
 

@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models
 
-
-# class library(models.Model):
-#     _name = 'library.library'
-#     _description = 'library.library'
+class Library(models.Model):
+     _name = 'library.shelf'
+     _description = 'library Shelf'
 
 #     name = fields.Char()
 #     value = fields.Integer()
