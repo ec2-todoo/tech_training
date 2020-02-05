@@ -21,7 +21,8 @@ class Library(models.Model):
     
     #responsible_id = fields.Many2one(comodel_name='res.users', required=True, string='Responsible', ondelete='restrict', copy=False)
     
-    tag_ids = fields.Many2many(comodel_name='library.tags', relation='rel_book_tags', column1='book_id', column2='tag_id', string='Tags')
+    #tag_ids = fields.Many2many(comodel_name='library.tags', relation='rel_book_tags', column1='book_id', column2='tag_id', string='Tags')
+    
     #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
