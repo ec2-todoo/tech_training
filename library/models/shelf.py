@@ -17,7 +17,7 @@ class Library(models.Model):
      banner = fields.Binary(string='Banner')
      price = fields.Float(string='Price', digits=(5, 4))
 
-    expire_date = fields.Date(string='Expire After', required=True)
+#    expire_date = fields.Date(string='Expire After', required=True)
     
     responsible_id = fields.Many2one(comodel_name='res.users', required=True,
                         string='Responsible', ondelete='restrict', copy=False)

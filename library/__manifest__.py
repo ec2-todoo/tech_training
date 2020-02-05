@@ -29,7 +29,7 @@
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/library_books.xml',
+     #   'demo/library_books.xml',
     ],
     "installable": True,
 }
